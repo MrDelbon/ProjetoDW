@@ -29,7 +29,7 @@ nav {
 }
   
 main {
-    background: url("/images/bg.jpg") no-repeat center center;
+    background: url("/images/fundo.jpg") no-repeat center center;
     background-size: cover;
     height: 92vh;
 }
@@ -109,3 +109,4 @@ main {
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
+/*alteração*/
