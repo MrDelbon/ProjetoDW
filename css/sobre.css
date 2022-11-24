@@ -1,6 +1,6 @@
 :root {
 	--primary: #00BFFF;
-	--grey: #888;
+	--secondary: #888;
 
 	--card-width: 320px;
 	--image-width: calc(var(--card-width) / 1.5);
@@ -70,7 +70,7 @@ main {
 }
 
 .card .name {
-	color: var(--grey);
+	color: var(--secondary);
 	font-size: 1.5rem;
 	margin-bottom: 0.5rem;
 }
@@ -83,7 +83,7 @@ main {
 }
 
 .card .content p {
-	color: var(--grey);
+	color: var(--secondary);
 	font-size: 1.125rem;
 }
 
