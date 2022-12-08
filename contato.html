@@ -1,36 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Complete Responsive Food / Restaurant Website Design Tutorial</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Desenvolvimento Web I</title>
 
-   <!-- CDN PARA UTILIZAÇÃO DOS ICONES -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- CDN PARA UTILIZAÇÃO DOS ICONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-   <!-- CSS -->
-   <link rel="stylesheet" href="./css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
-   
-<!-- COMEÇO DO HEADER -->
 
 <section class="header">
 
-   <a href="#" class="logo"> <i class="fas fa-tint"></i> Água e Saneamento </a>
-   <nav class="navbar">
-      <a href="./index.html">Inicio</a>
-      <a href="#about">Importância</a>
-      <a href="#food">Aprender</a>
-      <a href="#blogs">Projetos</a>
-      <a href="./contato.html">Contato</a>
-      <a href="./sobre.html">Sobre</a>
-   </nav>
+    <a href="#" class="logo"> <i class="fas fa-tint"></i> Água e Saneamento </a>
+    <nav class="navbar">
+        <a href="./index.html">Inicio</a>
+        <a href="./index.html#about">Importância</a>
+        <a href="./index.html#food">Aprender</a>
+        <a href="./index.html#blogs">Projetos</a>
+        <a href="./contato.html">Contato</a>
+        <a href="./sobre.html">Sobre</a>
+        <a href="./referencias.html">Referências</a>
+    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
 
 </section>
 
-<!-- FINAL DO HEADER -->
+<section class="post">
+
+    <div class="post-header" style="background: url(./images/home-referencias.jpg) no-repeat;">
+        <div class="title">
+            <h3>Envie Sugestões</h3>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+
+    <div class="heading">
+        <h3>Tem Alguma Sugestão de Post? Nos Envie um Email por Aqui!</h3>
+    </div>
+
+    <div class="container">
+        <form action="https://formspree.io/f/mgeqgnzz" method="POST">
+            <input type="text" name="Name" placeholder="Seu nome" required>
+            <input type="email" name="Email Address" placeholder="Seu@email.com" required>
+            <input type="number" name="Phone Number" placeholder="Seu telefone" required>
+            <textarea name="Message" placeholder="Mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>

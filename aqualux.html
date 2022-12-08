@@ -1,60 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Complete Responsive Food / Restaurant Website Design Tutorial</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Desenvolvimento Web I</title>
 
-   <!-- CDN PARA UTILIZAÇÃO DOS ICONES -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- CDN PARA UTILIZAÇÃO DOS ICONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-   <!-- CSS -->
-   <link rel="stylesheet" href="./css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
-   
-<!-- COMEÇO DO HEADER -->
 
 <section class="header">
 
-   <a href="#" class="logo"> <i class="fas fa-tint"></i> Água e Saneamento </a>
-   <nav class="navbar">
-      <a href="./index.html">Inicio</a>
-      <a href="#about">Importância</a>
-      <a href="#food">Aprender</a>
-      <a href="#blogs">Projetos</a>
-      <a href="./contato.html">Contato</a>
-      <a href="./sobre.html">Sobre</a>
-   </nav>
+    <a href="#" class="logo"> <i class="fas fa-tint"></i> Água e Saneamento </a>
+    <nav class="navbar">
+        <a href="./index.html">Inicio</a>
+        <a href="./index.html#about">Importância</a>
+        <a href="./index.html#food">Aprender</a>
+        <a href="./index.html#blogs">Projetos</a>
+        <a href="./contato.html">Contato</a>
+        <a href="./sobre.html">Sobre</a>
+        <a href="./referencias.html">Referências</a>
+    </nav>
 
-   <div id="menu-btn" class="fas fa-bars"></div>
+    <div id="menu-btn" class="fas fa-bars"></div>
 
 </section>
-
-<!-- FINAL DO HEADER -->
 
 <section class="post">
 
-    <img src="./images/home-post-1.jpg" alt="">
-
-    <div class="title">Projeto Aqualux</div>
+    <div class="post-header" style="background: url(./images/home-post-1.jpg) no-repeat;">
+        <div class="title">
+            <h3>Projeto Aqualux</h3>
+        </div>
+    </div> 
 
 </section>
 
-<section class="about" id="about">
+<section class="about">
 
     <div class="image">
-       <img src="./images/about-img-1.png" alt="">
+        <video id="video3" controls>
+            <source src="./videos/video-aqualux.mp4" type="video/mp4">
+        </video>
     </div>
- 
+
     <div class="content">
-       <h3 class="title">Água Potável e Saneamento</h3>
-       <p>Uma em cada três pessoas no mundo não tem acesso a água potável. Este dado alarmante foi apresentado no relatório do <em>Programa Conjunto de Monitoramento para Progresso
-           na Água Potável, Saneamento e Higiene: 2000-2017</em> e ele preocupa justamente porque a água e o saneamento estão no centro do desenvolvimento sustentável e das suas três 
-           dimensões – ambiental, econômica e social. Por isso, garantir o seu acesso universal e seguro a estes itens, é o sexto item da lista de Objetivos de Desenvolvimento 
-           Sustentável das Nações Unidas, para serem cumpridos até o ano de 2030.</p>
+        <h3 class="title">Conheça a vencedora do Red Bull Basement Brasil 2021</h3>
+        <p>Sabe quando dizem que ideias mudam o mundo? No Red Bull Basement esse ditado é colocado à prova e universitários de todo o mundo ganham um empurrão 
+           para desenvolverem projetos capazes de transformar vidas. Entre as 443 equipes inscritas no Brasil este ano, o projeto que mais chamou a atenção foi o 
+           Aqualux, da Bárbara Paiva.</p>
+        <p>A estudante da Universidade Federal de Ouro Preto desenvolveu uma garrafa portátil para esterilização de água por radiação, com filtro carregado a 
+           luz solar. "O projeto está sendo desenvolvido também pensando em facilitar a vida de esportistas e campistas, mas o foco principal é democratizar a 
+           água potável para pessoas que não têm acesso a saneamento básico", diz Bárbara.</p>
+        <p>Assista a esquerda ao vídeo de inscrição de Bárbara Paiva.</p>
     </div>
  
- </section>
+</section>
+
+<section class="about">
+
+    <div class="content">
+        <p>A ideia do projeto surgiu no mestrado da Bárbara, que estuda a esterilização de parasitas via radiação. "Pensei em aplicar isso para ajudar as 
+           pessoas de forma simples e viável", conta. O projeto impressionou a bancada de jurados e a agora campeã nacional do Red Bull Basement irá representar 
+           o Brasil na Final Global em 2022 em Istambul, na Turquia.</p>
+        <p>Para conquistar a sua vaga de finalista, Bárbara teve uma longa trajetória na competição, desde uma avaliação da comunidade local entre os meses 
+           de setembro e outubro, que foi levada em conta para a decisão final do painel de jurados, até a seleção dos 10 projetos finalistas. Nesta última etapa, 
+           sua ideia foi julgada por Isabela Matte, Runiet Skoberg e Tallis Gomes.</p>
+        <p>“O Aqualux é um produto extremamente interessante dadas as suas características técnicas e do ponto de vista dos benefícios que oferece", comenta Gomes, 
+           fundador da Easy Taxi e um dos principais nomes do empreendedorismo nacional. "Agora, precisamos focar no desenvolvimento de alguns pontos: tornar o 
+           empreendimento escalável, mapear os diferenciais competitivos mais atrativos para os investidores e ampliar o mercado de potenciais consumidores", completa.</p>
+        
+           <a class="btn" onclick="window.open('https://www.redbull.com/br-pt/projeto-vencedor-aqualux-red-bull-basement-2021');">Saiba Mais</a>
+    </div>
+    
+    <div class="image">
+        <img src="./images/post-aqualux-img-1.png" alt="">
+    </div>
+ 
+</section>
+
+</body>
+</html>

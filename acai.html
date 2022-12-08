@@ -1,60 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Complete Responsive Food / Restaurant Website Design Tutorial</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Desenvolvimento Web I</title>
 
-   <!-- CDN PARA UTILIZAÇÃO DOS ICONES -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- CDN PARA UTILIZAÇÃO DOS ICONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-   <!-- CSS -->
-   <link rel="stylesheet" href="./css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
-   
-<!-- COMEÇO DO HEADER -->
 
 <section class="header">
 
-   <a href="#" class="logo"> <i class="fas fa-tint"></i> Água e Saneamento </a>
-   <nav class="navbar">
-      <a href="./index.html">Inicio</a>
-      <a href="#about">Importância</a>
-      <a href="#food">Aprender</a>
-      <a href="#blogs">Projetos</a>
-      <a href="./contato.html">Contato</a>
-      <a href="./sobre.html">Sobre</a>
-   </nav>
+    <a href="#" class="logo"> <i class="fas fa-tint"></i> Água e Saneamento </a>
+    <nav class="navbar">
+        <a href="./index.html">Inicio</a>
+        <a href="./index.html#about">Importância</a>
+        <a href="./index.html#food">Aprender</a>
+        <a href="./index.html#blogs">Projetos</a>
+        <a href="./contato.html">Contato</a>
+        <a href="./sobre.html">Sobre</a>
+        <a href="./referencias.html">Referências</a>
+    </nav>
 
-   <div id="menu-btn" class="fas fa-bars"></div>
+    <div id="menu-btn" class="fas fa-bars"></div>
 
 </section>
-
-<!-- FINAL DO HEADER -->
 
 <section class="post">
 
-    <img src="./images/home-post-2.jpg" alt="">
-
-    <div class="title">Filtro de Áçai</div>
+    <div class="post-header" style="background: url(./images/home-post-2.jpg) no-repeat;">
+        <div class="title">
+            <h3>Filtro de Açaí</h3>
+        </div>
+    </div> 
 
 </section>
 
-<section class="about" id="about">
+<section class="about">
 
     <div class="image">
-       <img src="./images/about-img-1.png" alt="">
+        <img src="./images/post-acai-img-1.png" alt="">
     </div>
- 
+
     <div class="content">
-       <h3 class="title">Água Potável e Saneamento</h3>
-       <p>Uma em cada três pessoas no mundo não tem acesso a água potável. Este dado alarmante foi apresentado no relatório do <em>Programa Conjunto de Monitoramento para Progresso
-           na Água Potável, Saneamento e Higiene: 2000-2017</em> e ele preocupa justamente porque a água e o saneamento estão no centro do desenvolvimento sustentável e das suas três 
-           dimensões – ambiental, econômica e social. Por isso, garantir o seu acesso universal e seguro a estes itens, é o sexto item da lista de Objetivos de Desenvolvimento 
-           Sustentável das Nações Unidas, para serem cumpridos até o ano de 2030.</p>
+        <h3 class="title">Estudante de Rondônia cria filtro de água usando caroço de açaí e ganha intercâmbio</h3>
+        <p>Foi através do caroço do açaí, um fruto tradicional da região amazônica, que um estudante do Instituto Federal de Rondônia (Ifro) 
+           rompeu as fronteiras geográficas e viajou pela primeira vez para o exterior. David Henrique, de 16 anos, ganhou um intercâmbio para o 
+           Egito, após criar um protótipo de filtro de água com carvão ativado de açaí.</p>
+        <p>Para participar do projeto, o aluno, do 2º ano do curso técnico em química, participou no começo deste ano de um programa para bolsas 
+           do AFS Global STEM Academies. O programa acontece com base nos objetivos do desenvolvimento sustentável da Organização das Nações Unidas 
+           (ONU) e, em um workshop de 15 dias, David teve a ideia, desenvolveu o projeto e fez os primeiros testes no protótipo.</p>
     </div>
  
- </section>
+</section>
+
+<section class="about">
+
+    <div class="content">
+        <p>David só havia andado de avião quando saiu de Esperantinópolis (MA) e veio para Rondônia. Segundo o estudante, a escassez de água é muito 
+           grande na comunidade onde nasceu, o que acaba resultando no prejuízo na saúde da população, por isso planejou este projeto.</p>
+        <p>“Pensando nisso e tendo vivido isso, tendo sentido o gosto daquela água salobra, daquela água que não é 100% tratada, a gente pensa em 
+           entregar essa segunda opção”, disse ao ressaltar que o filtro é uma boa alternativa para comunidades com vulnerabilidade financeira devido 
+           ao custo-benefício e a eficiência.</p>
+        <p>Levando em consideração a importância da água potável, o filtro foi avaliado por uma banca do Centro de Estratégia de Impacto Social da 
+           Universidade da Pensilvânia (EUA) e recebeu certificado em cidadania e impacto social. Depois disso, teve a oportunidade de receber cartas 
+           de recomendação para o intercâmbio para o Egito com apoio de seus professores.</p>
+    </div>
+
+    <div class="image">
+        <img src="./images/post-acai-img-2.png" alt="">
+    </div>
+ 
+</section>
+
+<section class="about">
+
+    <div class="image">
+        <img src="./images/post-acai-img-3.png" alt="">
+    </div>
+
+    <div class="content">
+        <h3 class="title">Usabilidade do filtro</h3>
+        <p>Os materiais para construir o filtro são acessíveis para a região. É necessário algodão, pedra, areia grossa e fina e, por fim, o 
+           carvão ativado a base do caroço do açaí.</p>
+        <p>Para o aluno, é importante ter produtos acessíveis justamente para que o preço final do filtro tenha um custo-benefício que se encaixe na realidade do público-alvo.</p>
+        <p>“O motivo do caroço de açaí é porque achamos em abundância aqui na região e é um recurso barato de se conseguir. A produção do carvão ativado em si não é algo tão 
+           complexo e a gente conseguiria produzir ele em grande quantidade”, disse empolgado com a possibilidade da concretização do projeto.</p>
+        <p>O processo de filtragem da água feito pelo aluno é dividido em duas etapas:
+            <ul>
+                <li>A primeira etapa retira as impurezas, galhos, barro e demais substâncias naturais vistas a olho nu por um filtro composto de algodão, 
+                    pedra, areia e carvão ativado de açaí.</li>
+                <li>Na segunda etapa, em 15 minutos uma luz ultravioleta elimina todas as bactérias tornando a água potável.</li>
+            </ul>
+        </p>
+        <p>O público-alvo do projeto são comunidades que sofrem com a ausência de água tratada e a ideia não é comercializar o filtro.</p>
+        <p>“Como se trata de comunidades com vulnerabilidade financeira, pode ser algo muito distante para elas. “Ah, eu vou comprar um filtro, mas eu posso comprar comida”. 
+           Então para produzir o filtro precisa de investimento, de materiais, montar uma estrutura e isso custa. A gente precisa de parcerias, investimentos e apoios pelo 
+           menos nessa primeira fase”, explica.</p>
+        <p>Questionado sobre o que espera do filtro de água de caroço de açaí, disse que espera que todo o trabalho não fique só na ideia, mas que vá para a prática.</p>
+        <p>“Que todos esses dias planejando e trabalhando sejam recompensados da forma de ver a comunidade em si utilizando esse filtro e ver uma melhora no desenvolvimento 
+           dele, na saúde e na utilização da água que é um recurso importante”, disse.</p>
+    </div>
+ 
+</section>
+
+<section class="about">
+
+    <div class="content">
+        <h3 class="title">Um Mês no Egito</h3>
+        <p>Depois de ter a ideia e produzir o protótipo, David partiu para a sua primeira viagem internacional. No intercâmbio de quatro semanas, ele teve oportunidade 
+           de adquirir e passar conhecimento para seus colegas de vários países do mundo. Foi aluno do escritório da AFS e desenvolveu atividades de campo.</p>
+        <p>Além da oportunidade de conhecer vários pontos turísticos do Egito como as pirâmides, rio Nilo e museus, conheceu um dos maiores Centro de Tecnologia da 
+           África e entrou nos laboratórios e se familiarizou com o dia a dia de trabalho dos profissionais.</p>
+        <p>Em grupo, participou do projeto Cidades Sustentáveis com o objetivo de planejar uma cidade sustentável com possibilidades reais de coleta seletiva, 
+           implantação de energia limpa e renovável e outras medidas que priorizem o meio ambiente e o crescimento consciente.</p>
+        <p>Os cinco brasileiros e três mexicanos idealizaram como seria uma cidade que prioriza a conservação na prática e de forma aplicável na realidade atual.</p>
+        <p>“A gente colocou todas as ideias no papel de como funcionaria uma cidade sustentável. A gente tinha soluções de ecopontos, ecoblitz, hortas comunitárias… 
+           São coisas simples que mudam e geram impactos”, esclareceu sobre o projeto Cidades Sustentáveis.</p>
+        
+        <a class="btn" onclick="window.open('https://g1.globo.com/ro/rondonia/noticia/2022/09/08/estudante-de-rondonia-cria-filtro-de-agua-usando-caroco-de-acai-e-ganha-intercambio-para-o-egito.ghtml');">Saiba Mais</a>
+    </div>
+
+    <div class="image">
+        <img src="./images/post-acai-img-4.png" alt="">
+    </div>
+ 
+</section>
+
+</body>
+</html>

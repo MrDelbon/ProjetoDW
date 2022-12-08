@@ -1,60 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Complete Responsive Food / Restaurant Website Design Tutorial</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Desenvolvimento Web I</title>
 
-   <!-- CDN PARA UTILIZAÇÃO DOS ICONES -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- CDN PARA UTILIZAÇÃO DOS ICONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-   <!-- CSS -->
-   <link rel="stylesheet" href="./css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
-   
-<!-- COMEÇO DO HEADER -->
 
 <section class="header">
 
-   <a href="#" class="logo"> <i class="fas fa-tint"></i> Água e Saneamento </a>
-   <nav class="navbar">
-      <a href="./index.html">Inicio</a>
-      <a href="#about">Importância</a>
-      <a href="#food">Aprender</a>
-      <a href="#blogs">Projetos</a>
-      <a href="./contato.html">Contato</a>
-      <a href="./sobre.html">Sobre</a>
-   </nav>
+    <a href="#" class="logo"> <i class="fas fa-tint"></i> Água e Saneamento </a>
+    <nav class="navbar">
+        <a href="./index.html">Inicio</a>
+        <a href="./index.html#about">Importância</a>
+        <a href="./index.html#food">Aprender</a>
+        <a href="./index.html#blogs">Projetos</a>
+        <a href="./contato.html">Contato</a>
+        <a href="./sobre.html">Sobre</a>
+        <a href="./referencias.html">Referências</a>
+    </nav>
 
-   <div id="menu-btn" class="fas fa-bars"></div>
+    <div id="menu-btn" class="fas fa-bars"></div>
 
 </section>
-
-<!-- FINAL DO HEADER -->
 
 <section class="post">
 
-    <img src="./images/home-post-3.jpg" alt="">
-
-    <div class="title">Purificador P&G</div>
+    <div class="post-header" style="background: url(./images/home-post-3.jpg) no-repeat;">
+        <div class="title">
+            <h3>Purificador P&G</h3>
+        </div>
+    </div> 
 
 </section>
 
-<section class="about" id="about">
+<section class="about">
 
     <div class="image">
-       <img src="./images/about-img-1.png" alt="">
+       <img src="./images/time-lapse-purificador.gif" alt="">
     </div>
  
     <div class="content">
-       <h3 class="title">Água Potável e Saneamento</h3>
-       <p>Uma em cada três pessoas no mundo não tem acesso a água potável. Este dado alarmante foi apresentado no relatório do <em>Programa Conjunto de Monitoramento para Progresso
-           na Água Potável, Saneamento e Higiene: 2000-2017</em> e ele preocupa justamente porque a água e o saneamento estão no centro do desenvolvimento sustentável e das suas três 
-           dimensões – ambiental, econômica e social. Por isso, garantir o seu acesso universal e seguro a estes itens, é o sexto item da lista de Objetivos de Desenvolvimento 
-           Sustentável das Nações Unidas, para serem cumpridos até o ano de 2030.</p>
+        <h3 class="title">Uma Forma Simples de Purificar a Água</h3>
+        <p>A tecnologia de purificação de água da P&G é uma inovação incrível que transforma rapidamente 10 litros de água suja potencialmente mortal 
+        em água pura e potável. O sachê foi inventado pelos cientistas da P&G que estavam originalmente tentando separar a água suja usada para lavagem 
+        de roupa. Eles inventaram uma tecnologia inovadora que permitiu às pessoas em qualquer lugar do mundo purificarem água suja de forma simples, 
+        econômica e conveniente. A tecnologia de purificação de água foi desenvolvida em colaboração com o U.S. Centers for Disease Control and 
+        Prevention (CDC) e funciona em três etapas: coagulação, floculação e desinfecção.</p>
     </div>
  
- </section>
+</section>
+
+<section class="about">
+ 
+    <div class="content">
+        <h3 class="title">O Sachê de Purificação de Água Contém uma Mistura em Pó que Comprovadamente:</h3>
+        <ul>
+            <li>Elimina doenças causadas por microorganismos</li>
+            <li>Remove mais de 99,99999% das bactérias comuns da água (incluindo aquelas que causam cólera), 
+                99,99% dos vírus comuns da água (incluindo aqueles que causam hepatite A) e 99,9% dos protozoários</li>
+            <li>Reduz a incidência de doenças diarreicas dos países em desenvolvimento em até 90%</li>
+            <li>Remove sujeira e outros poluentes</li>
+            <li>Transforma água suja em água potável para toda a família, incluindo crianças. 
+                A Organização Mundial da Saúde classifica a tecnologia como fornecedora de proteção abrangente.</li>
+        </ul>
+        
+        <a class="btn" onclick="window.open('https://csdw.org/pt/');">Saiba Mais</a>
+    </div>
+
+    <div class="image">
+        <img src="./images/post-purificador-img-1.png" alt="">
+    </div>
+ 
+</section>
+
+</body>
+</html>
