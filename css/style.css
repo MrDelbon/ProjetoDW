@@ -282,7 +282,7 @@ section{
    color:var(--black);
 }
 
-.food .slide .price{
+.food .slide .subtitle{
    font-size: 2.5rem;
    color:var(--blue);
 }
@@ -324,26 +324,11 @@ section{
    color:var(--black);
 }
 
-.food-preview-container .food-preview .stars{
-   margin-top: .5rem;
-}
-
-.food-preview-container .food-preview .stars i{
-   font-size: 1.7rem;
-   color:var(--blue);
-}
-
 .food-preview-container .food-preview p{
    font-size: 1.6rem;
    color:var(--light-black);
    padding:1rem 0;
    line-height: 2;
-}
-
-.food-preview-container .food-preview .price{
-   font-size: 2.5rem;
-   color:var(--black);
-   margin-bottom: .5rem;
 }
 
 #close-preview{
