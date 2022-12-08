@@ -1,33 +1,436 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Projeto DW - Gustavo Delbon e Hugo Silva</title>
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <header>
-            <nav>
-                <div class="container">
-                    <i><img src="images/logo-gota.png"></i>
-    
-                    <div class="menu">
-                        <a href="#" class="ativo">Inicio</a>
-                        <a href="sobre.html">Sobre</a>
-                        <a href="#">Projetos</a>
-                        <a href="#">Contato</a>
-                    </div>
-    
-                    <button class="hamburguer">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
-            </nav>
-        </header>
-        <script src="js/navbar.js"></script>
-    </body>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Complete Responsive Food / Restaurant Website Design Tutorial</title>
+
+   <!-- CDN PARA UTILIZAÇÃO DOS ICONES -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- SWIPER MANEIRO -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+   
+<!-- COMEÇO DO HEADER -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-tint"></i> Água e Saneamento </a>
+   <nav class="navbar">
+      <a href="#home">Inicio</a>
+      <a href="#about">Importância</a>
+      <a href="#food">Aprender</a>
+      <a href="#blogs">Projetos</a>
+      <a href="./contato.html">Contato</a>
+      <a href="./sobre.html">Sobre</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- FINAL DO HEADER -->
+
+<!-- COMEÇO DE HOME  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(./images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <span>Projetos Inovadores</span>
+               <h3>Projeto Aqualux</h3>
+               <a href="#blogs" class="btn">Saiba Mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(./images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <span>Projetos Inovadores</span>
+               <h3>Filtro de Caroço de Açaí</h3>
+               <a href="#" class="btn">Saiba Mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(./images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <span>Projetos Inovadores</span>
+               <h3>Purificador de Água</h3>
+               <a href="#" class="btn">Saiba Mais</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- FINAL DE HOME -->
+
+<!-- COMEÇO DO SOBRE  -->
+
+<section class="about" id="about">
+
+   <div class="image">
+      <img src="./images/about-img-1.png" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="title">Água Potável e Saneamento</h3>
+      <p>Uma em cada três pessoas no mundo não tem acesso a água potável. Este dado alarmante foi apresentado no relatório do <em>Programa Conjunto de Monitoramento para Progresso
+          na Água Potável, Saneamento e Higiene: 2000-2017</em> e ele preocupa justamente porque a água e o saneamento estão no centro do desenvolvimento sustentável e das suas três 
+          dimensões – ambiental, econômica e social. Por isso, garantir o seu acesso universal e seguro a estes itens, é o sexto item da lista de Objetivos de Desenvolvimento 
+          Sustentável das Nações Unidas, para serem cumpridos até o ano de 2030.</p>
+   </div>
+
+</section>
+
+<section class="about">
+
+   <div class="content">
+      <h3 class="title">Importância do Saneamento Básico</h3>
+      <p>Quando o assunto é qualidade de vida, é comum que pessoas acabem direcionando sua atenção para avanços tecnológicos, alimentação, exercícios, entre outras coisas.
+          Entretanto, por mais que essas questões sejam, sim, interessantes de serem exploradas, existe um tema muito mais fundamental que nem sempre é lembrado na medida 
+          em que merece: o saneamento básico.</p>
+      <p>A importância do saneamento se dá pelos efeitos negativos comumente percebidos em sua ausência. Comunidades locais ou mesmo regiões inteiras podem sofrer sérios 
+         riscos por meio de infecções e doenças, sendo crianças e idosos, geralmente, os grupos mais suscetíveis.</p>
+      <p>Para se ter uma ideia das dimensões do problema, a Organização Mundial da Saúde (OMS) aponta que a taxa de mortalidade de crianças com até 5 anos de idade foi 
+         de 16,4 mortes por 1.000 nascidos vivos no Brasil em 2015. O reflexo desta realidade é que a diarreia mata 2.195 crianças por dia e faz mais vítimas do que a Aids,
+          a malária e o sarampo, juntos. É a segunda causa de morte no mundo entre crianças com idades entre 1 mês e 5 anos.</p>
+      <p>Além disso, quando não existe uma rede de coleta e afastamento capaz de processar todos os resíduos de forma segura, o próprio meio ambiente também corre risco,
+          uma vez que a água contaminada pode atingir os lençóis freáticos que abastecem comunidades, tornando-a imprópria para consumo.</p>
+      <p>Em novembro de 2010, o Instituto Trata Brasil divulgou uma pesquisa realizada com a Fundação Getúlio Vargas. Foi analisada a situação de 81 municípios com mais
+          de 300 mil habitantes e coletados dados do período de 2003 a 2008.</p>
+      <p>O objetivo da pesquisa era verificar as possíveis relações entre o esgotamento sanitário inadequado e diarreias. Também foram levados em consideração os gastos
+          do Sistema Único de Saúde (SUS) com tratamento de doenças de origem sanitária.</p>
+   </div>
+
+   <div class="image">
+      <img src="./images/about-img-2.png" alt="">
+   </div>
+
+</section>
+
+<section class="about">
+
+   <div class="image">
+      <img src="./images/about-img-1.png" alt="">
+   </div>
+
+   <div class="content">
+      <p>A conclusão do estudo foi uma clara relação: Municípios que têm esgotamento inadequado têm também as maiores taxas de hospitalização por diarreia. Há ainda estudos
+          indicando que os custos com o tratamento desta doença são maiores justamente em regiões mais pobres, com uma situação crítica de coleta de esgoto, a exemplo do 
+          Norte e Nordeste do país e o entorno do Rio de Janeiro.</p>
+      <p>Os números revelam ainda que as mais afetadas são as crianças, constituindo mais de 50% das internações. Em 16 das 81 cidades, a proporção supera 70% dos casos, 
+         sempre ligados à pobreza e à inconsistência dos sistemas sanitários. Para uma base de comparação, nas cidades com os melhores índices de saneamento as internações 
+         por diarreia são quatro vezes menores. De acordo com a pesquisa, se apenas o índice médio de coleta de esgoto das 10 melhores cidades fosse expandido para as outras 
+         81, as taxas e custos de internação por diarreias diminuiria em 50%.</p>
+      <p>Outro dado alarmante é que 99% das mortes por falta de saneamento no mundo ocorrem em países pobres e em desenvolvimento. O número demonstra a importância do saneamento
+          básico ser considerado nas políticas públicas desses países.</p>
+      <p>Por mais que a principal área afetada pelo saneamento básico seja a da saúde, é seguro dizer que a sua existência acaba impactando a sociedade em muitos outros níveis.
+          Segundo dados do Instituto Trata Brasil, para cada R$1,00 investido em saneamento acaba gerando R$4,00 de economia na saúde. Ou seja, ações de saneamento têm influência
+           direta na prevenção de doenças, o que possibilita que recursos públicos sejam destinados para outras finalidades também importantes, como a área da educação.</p>
+      <p>Não obstante, no ano de 2013 o Brasil teve quase 15 milhões de casos de pessoas afastadas de seus trabalhos por motivo de diarreia ou vômito, sintomas geralmente associados
+          à ingestão de água contaminada. Em outras palavras, o saneamento, nas suas variadas facetas, exerce grande influência na saúde dos brasileiros, na economia, no mercado
+           de trabalho e na geração de riquezas.</p>
+   </div>
+
+</section>
+
+<section class="about">
+
+   <div class="content">
+      <h3 class="title">Importância da Água</h3>
+      <p>Desde criança, aprendemos que a água é fundamental para a vida na Terra. Encontrada em cerca de 70% da superfície do planeta, ela é responsável pelo surgimento e 
+         manutenção da vida e está presente na composição de todos os seres vivos. Não bastasse isso tudo, a água é um dos mais importantes fatores para a conservação da saúde, 
+         já que participa de todos os processos corporais “desde a regularização dos fluidos corporais, o controle prescrito, a termorregulação, os sistemas endócrinos e hormonais, 
+         a filtração e eliminação de excessos e resíduos de metabolização do corpo” explica o Dr. Mauro Scharf, endocrinologista e diretor médico. Resumindo, a água é vida em 
+         nosso corpo.</p>
+      <p>O corpo humano possui em torno de 65% de água em sua constituição, sendo que cada parte possui maior ou menor quantidade desse líquido: os músculos têm 75% de água 
+         em sua composição, o sangue possui 95%, a gordura registra 14% e os ossos, cerca de 25%. A distribuição da água pelo corpo se dá quando ela é ingerida, uma vez que o 
+         líquido é guiado a todas as células para que cada uma delas execute suas funções de forma adequada. “Ao ingerirmos quaisquer bebidas, elas são absorvidas pelo tecido 
+         mucoso e pelos intestinos. Utilizamos a água e seus componentes e eliminamos os excessos através do sistema urinário”, conta o Dr. Mauro.</p>
+   </div>
+
+   <div class="image">
+      <img src="./images/about-img-2.png" alt="">
+   </div>
+
+</section>
+
+<section class="about">
+
+   <div class="image">
+      <img src="./images/about-img-1.png" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="title">Acesso à Água e Saneamento</h3>
+      <p>A ONU estima que, atualmente, cerca de 40% da população mundial não tem acesso seguro à água potável. O número cresce quando falamos sobre os sistemas de tratamento 
+         fluvial e de esgoto: mais da metade do mundo não tem serviços de saneamento eficientes. São, respectivamente, cerca de 2,2 bilhões e 4,2 bilhões de pessoas no mundo 
+         sem essas infraestruturas.</p>
+      <p>Mas as coisas eram ainda piores no início deste século. O relatório da ONU, anteriormente citado, também revela que desde o ano 2000, cerca de 1,8 bilhão de pessoas
+          ganharam acesso a serviços básicos de água potável. Porém, apesar do progresso, “o mero acesso não é suficiente”. Este foi o apelo da diretora associada do Unicef 
+          para esta área, Kelly Ann Naylor. A preocupação ocorre porque, muitas vezes, quando existe água, ela é imprópria para consumo. E muitas vezes existem banheiros, 
+          mas são insuficientes e inseguros.</p>
+      <p>Há grandes desigualdades na acessibilidade, disponibilidade e qualidade desses serviços. Por exemplo, o estudo estima que 8 em cada 10 pessoas que vivem em zonas 
+         rurais não têm acesso ao saneamento básico. Em cerca de 25% dos países a cobertura de serviços essenciais entre os mais ricos é pelo menos duas vezes maior do que 
+         entre os mais pobres.</p>
+      <p>No Brasil, a situação não é muito diferente: 16% das pessoas não têm água tratada e 47% não têm acesso à rede de esgoto, segundo dados do Sistema Nacional de 
+         Informações sobre Saneamento (SNIS), divulgados em 2020 e referentes a 2018. São 35 milhões de brasileiros sem recursos hídricos seguros, e 100 milhões precisando 
+         usar medidas alternativas para lidar com os dejetos. Os números também têm melhorado ao longo dos anos, mas de forma lenta. Em 2011, 17,6% da população não tinha 
+         água tratada, e mais da metade dos brasileiros, o equivalente a 51,9%, não tinha acesso à rede de coleta de esgoto.</p>
+   </div>
+
+</section>
+
+<section class="about">
+
+   <div class="content">
+      <h3 class="title">Agenda 2030 – Objetivo 6</h3>
+      <p>Baseado em estudos como o apresentado anteriormente, surge o objetivo 6 da agenda 2030, assegurar a disponibilidade e gestão sustentável da água e saneamento para 
+         todas e todos, e com o intuito de atingi-lo, foi-se dividido em objetivos menores, sendo eles:</p>
+      <ul>
+         <li>Até 2030, alcançar o acesso universal e equitativo a água potável e segura para todos.</li>
+         <li>Até 2030, alcançar o acesso a saneamento e higiene adequados e equitativos para todos, 
+            e acabar com a defecação a céu aberto, com especial atenção para as necessidades das mulheres 
+            e meninas e daqueles em situação de vulnerabilidade.</li>
+         <li>Até 2030, melhorar a qualidade da água, reduzindo a poluição, eliminando despejo e minimizando
+             a liberação de produtos químicos e materiais perigosos, reduzindo à metade a proporção de águas 
+             residuais não tratadas e aumentando substancialmente a reciclagem e reutilização segura globalmente.</li>
+         <li>Até 2030, aumentar substancialmente a eficiência do uso da água em todos os setores e assegurar
+             retiradas sustentáveis e o abastecimento de água doce para enfrentar a escassez de água, e reduzir 
+             substancialmente o número de pessoas que sofrem com a escassez de água.</li>
+         <li>Até 2030, implementar a gestão integrada dos recursos hídricos em todos os níveis, inclusive 
+            via cooperação transfronteiriça, conforme apropriado.</li>
+         <li>Até 2030, proteger e restaurar ecossistemas relacionados com a água, incluindo montanhas, 
+            florestas, zonas úmidas, rios, aquíferos e lagos.</li>
+         <li>Até 2030, ampliar a cooperação internacional e o apoio à capacitação para os países em desenvolvimento 
+            em atividades e programas relacionados à água e saneamento, incluindo a coleta de água, a dessalinização, 
+            a eficiência no uso da água, o tratamento de efluentes, a reciclagem e as tecnologias de reuso.</li>
+         <li>Apoiar e fortalecer a participação das comunidades locais, para melhorar a gestão da água e do saneamento.</li>
+      </ul>
+   </div>
+
+   <div class="image">
+      <img src="./images/about-img-6.png" alt="">
+   </div>
+
+</section>
+
+<!-- FINAL DE SOBRE -->
+
+<!-- COMEÇO DE APRENDER  -->
+
+<section class="food" id="food">
+
+   <div class="heading">  
+      <span>Click Para Saber</span>
+      <h3>Conheça um Pouco Mais Sobre os Processos da Água.</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" data-name="food-1">
+            <img src="images/food-img-1.png" alt="">
+            <h3>Saneamento</h3>
+            <div class="price">curiosidades sobre saneamento</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-2">
+            <img src="images/food-img-2.png" alt="">
+            <h3>Tratamento de Água</h3>
+            <div class="price">conheça o processo</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-3">
+            <img src="images/food-img-3.png" alt="">
+            <h3>Tratamento de Esgoto</h3>
+            <div class="price">conheça o processo</div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- food section ends -->
+
+<!-- food preview section starts  -->
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="images/food-img-1.png" alt="">
+      <h3>Saneamento</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <!-- <div class="price">$49.99</div> -->
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <img src="images/food-img-2.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <img src="images/food-img-3.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+      <img src="images/food-img-4.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="food-preview" data-target="food-5">
+      <img src="images/food-img-5.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">buy now</a>
+   </div>
+
+</section>
+
+<!-- food preview section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      <span>Projetos</span>
+      <h3>Confira Alguns Projetos Inovadores</h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-1.jpg" alt="">
+               <span>Aqualux</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a> <i class="fas fa-calendar"></i> 18 de Novembro, 2022 </a>
+                  <a> <i class="fas fa-user"></i> Por Gustavo </a>
+               </div>
+               <a href="./aqualux.html" class="title">Garrafa que Torna Qualquer Água Potável</a>
+               <p>Conheça a vencedora do Red Bull Basement Brasil 2021</p>
+               <a href="./aqualux.html" class="btn">Saiba Mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-2.jpg" alt="">
+               <span>Filtro de Áçai</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a> <i class="fas fa-calendar"></i> 08 de Setembro, 2022 </a>
+                  <a> <i class="fas fa-user"></i> Por Hugo </a>
+               </div>
+               <a href="./acai.html" class="title">Filtro de Água com Caroço de Açaí</a>
+               <p>Estudante cria um protótipo de filtro com fruto típico da região</p>
+               <a href="./acai.html" class="btn">Saiba Mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-3.jpg" alt="">
+               <span>Purificador P&G</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 27 de Maio, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> Por Hugo </a>
+               </div>
+               <a href="#" class="title">Uma Forma Simples de Purificar a Água</a>
+               <p>A tecnologia de purificação de água da P&G é uma inovação incrível</p>
+               <a href="#" class="btn">Saiba Mais</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
 </html>
